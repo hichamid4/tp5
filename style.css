@@ -56,12 +56,12 @@ header{
 .container-items {
     width: 100%;
     height: calc(100vh - 590px);
+    background-color: transparent;
 }
 
 .item {
     width: 200px;
     height: 350px;
-    background-color: rgba(0, 0, 0, .1);
     float: left;
     margin: 5px;
     box-shadow: 4px 4px 3px rgba(0,0,0,0.2);
