@@ -61,7 +61,7 @@ header{
 .item {
     width: 200px;
     height: 350px;
-    background-color: #c32aa3;
+    background-color: rgba(0, 0, 0, .1);
     float: left;
     margin: 5px;
     box-shadow: 4px 4px 3px rgba(0,0,0,0.2);
