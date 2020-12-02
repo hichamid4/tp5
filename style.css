@@ -52,15 +52,14 @@ header{
     border-radius: 5px;
 }
 
-main {
-    width: 100vw;
-    height: calc(100vh - 90px);
+.container-items {
+    width: 100%;
+    height: calc(100vh - 590px);
 }
 
 .item {
     width: 200px;
-    height: 300px;
-    /* background-color: teal; */
+    height: 350px;
     float: left;
     margin: 5px;
 }
@@ -74,8 +73,6 @@ main {
 .animated-text {
     width: 100%;
     height: 50px;
-    /* background-color: red; */
-    overflow: hidden;
 }
 
 .animated-text .text {
@@ -84,27 +81,128 @@ main {
     text-transform: uppercase;
     font-size: 15px;
     text-align: center;
-    line-height: 50px;
     font-family: sans-serif;
     background: rgba(0, 0, 0, .1);
     border-radius: 10px;
 }
 
 .animated-text .text:first-child{
-    margin-bottom: 5px;
-    animation: slide 1.5s linear infinite alternate;
+    margin-bottom: 2px;
 }
 
-@keyframes slide{
-    0%{
-        margin-top: 0px;
-    }
-    50%{
-        margin-top: -60px;
-    }
-    100%{
-        margin-top: 0px;
-    }
+.container-btn {
+     width: 100%;
+     height: 50px;
 }
+
+.btn1{
+    border: none;
+    margin: 0px auto;
+    background: rgb(114, 168, 199);
+    padding: 10px 35px;
+    transition: .2s ease;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btn2{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(238, 149, 133);
+    transition: .2s ease;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: rgb(27, 168, 250);
+    color: white;
+}
+
+.btn2:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.container-img-text{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto 5px auto;
+}
+
+.container-img-text .img {
+    width: 49%;
+    height: 300px;
+    float: left;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-right {
+    background: rgba(0,0,0,.1);
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.text-right a {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.centre{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+.text-right a button {
+    width: 150px;
+    background: lightblue;
+    padding: 10px 10px;
+    text-align: center;
+    transition: .2s ease-in;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    border: none    ;
+
+}
+
+.text-right a button:hover {
+    background-color: rgb(38, 132, 255);
+    color: white;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
