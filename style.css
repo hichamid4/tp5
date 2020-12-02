@@ -19,6 +19,7 @@ header{
 #logo img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 #menu{
@@ -97,6 +98,7 @@ header{
 
 .btn1{
     border: none;
+    outline: none;
     margin: 0px auto;
     background: rgb(114, 168, 199);
     padding: 10px 35px;
@@ -110,6 +112,7 @@ header{
 
 .btn2{
     border: none;
+    outline: none;
     padding: 10px 15px;
     background-color: rgb(238, 149, 133);
     transition: .2s ease;
@@ -193,6 +196,110 @@ header{
     color: white;
     width: 300px;
 }
+
+footer{
+    background-color: rgb(10, 61, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 20px;
+    width: 80px;
+    height: 80px;
+    background: rgb(204, 204, 204);
+    display: inline-block;
+    border-radius: 24px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0,.15),
+                -6px -6px 12px rgba(255,255,255,.1);
+    font-size: 28px;
+    transition: .3s linear;
+    overflow: hidden;
+    position: relative;
+}
+
+footer a:hover {
+    transform: scale(1.3);
+    border-radius: 50%;
+}
+
+footer a i::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: 200% 200%;
+    background-position: 75% 75%;
+    top: 0;
+    left: 0;
+    line-height: 80px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:hover i::before{
+    background-position: 0% 0%;
+}
+
+.fa-facebook-f::before{
+    background-image: linear-gradient(135deg,#0034a5 30%,#0a3d62 50%);
+}
+
+.fa-twitter::before{
+    background-image: linear-gradient(135deg,#1da1f2 30%,#0a3d62 50%);
+}
+
+.fa-instagram::before{
+    background-image: linear-gradient(135deg,#c32aa3 30%,#0a3d62 50%);
+}
+
+.fa-linkedin-in::before{
+    background-image: linear-gradient(135deg,#007bb5 30%,#0a3d62 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
